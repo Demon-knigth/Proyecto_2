@@ -1,0 +1,61 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.body {
+    background-image: url(tau.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    text-align: center;
+    color:rgb(0, 0, 0);
+}
+
+.pie {
+
+background-color: rgb(236, 75, 0);
+text-decoration-color: white;
+text-align: center;
+
+}
+
+.fondo{
+
+    font-size: 24px;
+    color: #333;
+
+}
+
+p{
+    font-family:Arial 18;
+    color: white;
+}
+
+.cont-imgs{
+    display: flex;
+    flex-direction: row;
+}
+
+
+.der{
+    width: 50%;
+    
+}
+.izq{
+    width: 50%;
+    
+}
+@media screen and(max-width> 800px){
+        width: 100%;
+            padding:0;
+}
+
+
+@media screen and (max-width:400px){
+    .menu a {
+        float: none;
+        width: 100%;
+    }
+
